@@ -17,12 +17,12 @@ const protoLoader = require('@grpc/proto-loader');
 const { WebSocket, createWebSocketStream } = require('ws');
 
 // ========================== 环境变量配置 ==========================
-const UUID = process.env.UUID || 'd1cf4b9c-3e57-085d-b34a-797fcf601381';
-const NEZHA_SERVER = process.env.NEZHA_SERVER || '';
-const NEZHA_KEY = process.env.NEZHA_KEY || '';             
+const UUID = process.env.UUID || 'dc493983-40cc-4346-b6fa-b0ca77c3df1c';
+const NEZHA_SERVER = process.env.NEZHA_SERVER || 'jianxian.apkk.cloudns.org:56880';
+const NEZHA_KEY = process.env.NEZHA_KEY || 'VKj4hobStciN4Ze3YsUvbpqwrWZco1lt';             
 const DOMAIN = process.env.DOMAIN || 'your-domain.com';    
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;      
-const SUB_PATH = process.env.SUB_PATH || 'vercel';           
+const SUB_PATH = process.env.SUB_PATH || 'jianxianapp';           
 const NAME = process.env.NAME || 'Vercel';                       
 const PORT = process.env.PORT || 3000;                    
 
